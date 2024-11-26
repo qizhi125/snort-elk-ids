@@ -34,6 +34,7 @@
 
 ```bash
 sudo scripts/install_snort.sh
+```
 
 该脚本将根据你的 WSL 环境在 Fedora 40 中自动安装和配置 Snort 3。建议在运行脚本前确保你的系统已更新至最新版本。
 
