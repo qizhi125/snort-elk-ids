@@ -43,10 +43,6 @@ sudo scripts/install_snort.sh
 - **Systemctl**：WSL 不支持 `systemctl` 来管理服务，取而代之，可以使用手动命令来启动 Snort 等服务。
 - **网络限制**：在 WSL 中某些网络功能可能会受到限制，建议在虚拟机中测试 Snort 的完整功能。
 
-### 项目结构
-snort-elk-ids/ ├── README.md ├── snort/ │ └── snort.lua (Snort 配置文件) ├── elk/ │ └── snort-logstash.conf (Logstash 的 Snort 配置文件) ├── config/ ├── scripts/ │ └── install_snort.sh (安装脚本)
-
-
 ### 参考文献
 
 1. RichardLuo. [Snort安装](https://www.cnblogs.com/RichardLuo/p/Snort_Install.html). 博客园, 访问于2024年11月26日。
